@@ -1,0 +1,167 @@
+body{
+  color: #555;
+  background-color: #FFFF;
+  margin: 0;
+}
+#header{
+  background-color: #FFF78E;
+  height: 150px;
+}
+#header a{
+  color: black;
+  text decoration: none;
+  text-transform:uppercase;
+  letter-spacing:.1em;
+}
+
+#header a:hover{
+    color: #FF7E79;
+  }
+#header-title{
+  text-align: center;
+  display: block;
+  font-size: bold;
+  font-weight: 20px;
+  padding: 30px 0px 0px 0px;
+}
+#navigation{
+display: block;
+text-align: center;
+margin: 20px auto;
+
+
+}
+#navigation li{
+  display: block;
+  padding: 0px 40px 0px 0px;
+  display: inline;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-family: "Monaco";
+  font-style: oblique;
+}
+.container{
+  max-width: 1000px;
+  margin:0 auto;
+}
+#footer {
+  margin: 0px -50px 0px -50px;
+  background-color: #F07C78;
+  padding: 50px 0;
+}
+.column{
+  min-width: 300px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#footer h4{
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-family: "Monaco";
+  font-style: oblique;
+  filter: drop-shadow(2px 2px 0px black);
+}
+#footer p{
+  color: black;
+  font-family: "Monaco";
+}
+
+#footer a:hover{
+  color: white;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+  font-family: "Monaco";
+}
+.column{
+  vertical-align: top;
+}
+
+#links p{
+  text-aligm: right;
+}
+
+#about h4{
+  padding-top: 4px;
+}
+
+#content{
+min-height: 600px;
+  font-family: "Monaco";
+  text-align: center;
+}
+#box{
+  border: 2px dotted black;
+  margin: 70px 200px 70px 200px;
+  padding: 10px 10px 10px 10px;
+}
+#box h2{
+  color: #FFF78E;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-family: "Monaco";
+  font-style: oblique;
+  filter: drop-shadow(2px 2px 0px black);
+}
+.pictures li{
+  text-decoration: none;
+  list-style: none outside none;
+  display: inline-grid;
+  display: inline-inline-flex;}
+
+#p1 {
+  margin-top: 60px;
+}
+
+.Docs iframe{
+  margin: 20px 20px 20px 20px;
+}
+
+.Docs h3{
+  color: #F07C78;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-family: "Monaco";
+  font-style: oblique;
+  filter: drop-shadow(.11em 0px 0px #693635);
+}
+
+.Docs {
+  border-width: medium;
+  border-style: dotted;
+  border-color: black;
+  margin: 40px 220px 40px 220px;
+  padding: 30px 0px 30px 0px;
+}
+.posttitle h3{
+  color: #F07C78;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-family: "Monaco";
+  font-style: oblique;
+  filter: drop-shadow(.12em 0px 0px #693635);
+}
+.posttitle p{
+    margin-top: -10px;
+  }
+}
+.videos h3{
+  color: #F07C78;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-family: "Monaco";
+  font-style: oblique;
+  filter: drop-shadow(.12em 0px 0px #693635);
+}
+.videos iframe{
+  width: 445px;
+  height: 250px;
+}
+.videos ul{
+  display: inline;
+  list-style: none outside none;
+}
