@@ -45,7 +45,7 @@ margin: 20px auto;
   margin:0 auto;
 }
 #footer {
-  margin: 0px -50px 0px -50px;
+  margin: 0px -500px 0px -500px;
   background-color: #F07C78;
   padding: 50px 0;
 }
@@ -121,7 +121,6 @@ min-height: 600px;
   margin: 20px 20px 20px 20px;
 }
 
-
 .Docs {
   border-width: medium;
   border-style: dotted;
@@ -129,7 +128,6 @@ min-height: 600px;
   margin: 40px 220px 40px 220px;
   padding: 30px 0px 30px 0px;
 }
-
 .posttitle p{
     margin-top: -10px;
   }
@@ -142,7 +140,6 @@ min-height: 600px;
   display: inline;
   list-style: none outside none;
 }
-
 h3{
   color: #F07C78;
   text-transform: uppercase;
@@ -150,4 +147,16 @@ h3{
   font-family: "Monaco";
   font-style: oblique;
   filter: drop-shadow(.12em 0px 0px #693635);
+}
+
+.videos{
+  display: inline-grid;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  grid-template-columns: auto auto auto;
+  padding: 40px 0px 40px 0px;
+}
+.videos iframe{
+  height: 180px;
+  width: 320px;
 }
