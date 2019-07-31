@@ -121,14 +121,6 @@ min-height: 600px;
   margin: 20px 20px 20px 20px;
 }
 
-.Docs h3{
-  color: #F07C78;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  font-family: "Monaco";
-  font-style: oblique;
-  filter: drop-shadow(.11em 0px 0px #693635);
-}
 
 .Docs {
   border-width: medium;
@@ -137,25 +129,10 @@ min-height: 600px;
   margin: 40px 220px 40px 220px;
   padding: 30px 0px 30px 0px;
 }
-.posttitle h3{
-  color: #F07C78;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  font-family: "Monaco";
-  font-style: oblique;
-  filter: drop-shadow(.12em 0px 0px #693635);
-}
+
 .posttitle p{
     margin-top: -10px;
   }
-}
-.videos h3{
-  color: #F07C78;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  font-family: "Monaco";
-  font-style: oblique;
-  filter: drop-shadow(.12em 0px 0px #693635);
 }
 .videos iframe{
   width: 445px;
